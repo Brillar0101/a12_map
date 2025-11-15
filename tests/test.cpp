@@ -5,6 +5,10 @@
 #include "cart_analysis.hpp"
 #include "customer_loyalty.hpp"
 
+#include <map>
+#include <vector>
+#include <string>
+
 TEST_CASE("Box Fitting Optimizer used to find correct indices", "[box_optimizer]") {
     std::vector<int> weights;
     weights.push_back(10);
